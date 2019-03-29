@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>Sign in</title>
+
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+        <link href="css/stylesign.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    </head>
+
+    <body>
+        <div class="all">
+            <div class="nav spacein">
+                <nav >
+                    <div class="nav-wrapper blue-grey">
+                    <a class="brand-logo center ">SIGN IN</a>
+                    </div>
+                </nav>
+            </div>
+            
+            <div class="cont">
+                <div class="row" >
+                <form class="col s12">
+
+                <div class="row">
+                    <div class="input-field col s12">
+                    <i class="material-icons prefix">mail</i>
+                    <input id="email" type="email" class="validate">
+                    <label for="email">Email<span class="req">*</span></label>
+                    </div>
+                </div>
+
+                <div class="row">
+                        <div class="input-field col s12">
+                        <i class="material-icons prefix">security</i>
+                        <input id="password" type="password" class="validate">
+                        <label for="password">Password<span class="req">*</span></label>
+                        <p>
+                            <label>
+                                <input type="checkbox" onclick="showpass()" class="filled-in"/>
+                                <span>Show Password</span>
+                            </label>
+                        </p>
+                        </div>
+                    </div>
+                <div class="row"> 
+                    <a href="forgetpass.html"> Forgot your password? </a>
+                </div> 
+                    
+                <!-- chua xu ly-->
+                
+                <div class="row center">
+                    <button class="btn waves-effect waves-light blue-grey" type="submit" name="action">Sign in
+                            <i class="material-icons right">send</i>
+                    </button>
+                </div>
+                <div class="row center"> 
+                    <p>Don't have an account yet? </p>
+                    <a href="./signup.html"> Sign up here! </a>
+                </div>  
+                </form>
+                </div>
+            </div>
+        </div>
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/sign.js"></script>
+    </body>
+</html>
